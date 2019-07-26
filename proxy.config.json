@@ -1,0 +1,10 @@
+{
+    "/news": {
+      "target": "http://dibnews.yarshatech.com.au/index.php/rest/news/get/api_key/teampsisthebest",
+      "secure": false,
+      "pathRewrite": {
+        "^/news": ""
+      },
+      "changeOrigin":true
+    }
+  }
